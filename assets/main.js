@@ -87,10 +87,10 @@ const translations = {
     "demo.hero.eyebrow": "Раздел /demo",
     "demo.hero.title": "Демо решения",
     "demo.hero.lead": "Ниже размещены демонстрационное видео, его описание и ссылка на рабочий прототип.",
-    "demo.video.h2": "6.1 Демо-видео (1-5 минут)",
+    "demo.video.h2": "Демо-видео (1-5 минут)",
     "demo.video.iframeTitle": "Демо-видео платформы",
     "demo.video.note": "Замените ссылку в iframe на ваше финальное демо-видео длительностью 1-5 минут.",
-    "demo.desc.h2": "6.2 Описание демо-видео",
+    "demo.desc.h2": "Описание демо-видео",
     "demo.desc.p": "В видео показан ключевой пользовательский сценарий: клиент выбирает услугу, видит свободные слоты, бронирует время и получает подтверждение. Затем демонстрируется кабинет бизнеса: управление расписанием, обработка заявок, уведомления и аналитика загрузки.",
    "demo.desc.l1": "00:00–00:15: Титульный слайд и концепция PAV.",
     "demo.desc.l2": "00:15–00:34: Проблема №1 — Хаос в записи и потеря клиентов.",
@@ -104,7 +104,7 @@ const translations = {
     "demo.desc.l10": "02:57–04:04: Анализ активности: разница между звонками и онлайн-записью.",
     "demo.desc.l11": "04:04–04:30: Синергия каналов и операционные риски.",
     "demo.desc.l12": "04:30–04:54: Итоговая ценность продукта для рынка.",
-    "demo.proto.h2": "6.3 Ссылка на рабочий прототип",
+    "demo.proto.h2": "Ссылка на рабочий прототип",
     "demo.proto.p1": "Прототип доступен по ссылке: <a href=\"https://example.com/prototype\" target=\"_blank\" rel=\"noreferrer\">https://example.com/prototype</a>",
     "demo.footer.p": "Платформа бронирования услуг · Demo Page",
     "demo.footer.back": "Вернуться на главную",
@@ -197,10 +197,10 @@ const translations = {
     "demo.hero.eyebrow": "/demo bo'limi",
     "demo.hero.title": "Yechim demosi",
     "demo.hero.lead": "Quyida demo video, uning tavsifi va ishlaydigan prototip havolasi joylashtirilgan.",
-    "demo.video.h2": "6.1 Demo-video (1-5 daqiqa)",
+    "demo.video.h2": "Demo-video (1-5 daqiqa)",
     "demo.video.iframeTitle": "Platforma demo-videosi",
     "demo.video.note": "iframe havolasini 1-5 daqiqalik yakuniy demo-videongizga almashtiring.",
-    "demo.desc.h2": "6.2 Demo-video tavsifi",
+    "demo.desc.h2": "Demo-video tavsifi",
     "demo.desc.p": "Videoda asosiy foydalanuvchi ssenariysi ko'rsatilgan: mijoz xizmatni tanlaydi, bo'sh slotlarni ko'radi, vaqtni band qiladi va tasdiq oladi. Keyin biznes kabineti: jadval boshqaruvi, so'rovlarni qayta ishlash, bildirishnomalar va yuklama analitikasi ko'rsatiladi.",
    "demo.desc.l1": "00:00–00:15: Titul slayd va PAV konsepsiyasi.",
     "demo.desc.l2": "00:15–00:34: 1-muammo — Navbatlardagi tartibsizlik va mijozlarni yo'qotish.",
@@ -214,7 +214,7 @@ const translations = {
     "demo.desc.l10": "02:57–04:04: Faollik tahlili: qo'ng'iroqlar va onlayn bron o'rtasidagi farq.",
     "demo.desc.l11": "04:04–04:30: Kanallar sinergiyasi va operatsion xavflar.",
     "demo.desc.l12": "04:30–04:54: Mahsulotning bozor uchun yakuniy qiymati.",
-    "demo.proto.h2": "6.3 Ishlaydigan prototip havolasi",
+    "demo.proto.h2": "Ishlaydigan prototip havolasi",
     "demo.proto.p1": "Prototip havolasi: <a href=\"https://example.com/prototype\" target=\"_blank\" rel=\"noreferrer\">https://example.com/prototype</a>",
     "demo.footer.p": "Xizmatlarni band qilish platformasi · Demo sahifa",
     "demo.footer.back": "Bosh sahifaga qaytish",
@@ -307,10 +307,10 @@ const translations = {
     "demo.hero.eyebrow": "/demo page",
     "demo.hero.title": "Solution Demo",
     "demo.hero.lead": "Below you can find the demo video, its description, and a link to the working prototype.",
-    "demo.video.h2": "6.1 Demo video (1-5 minutes)",
+    "demo.video.h2": "Demo video (1-5 minutes)",
     "demo.video.iframeTitle": "Platform demo video",
     "demo.video.note": "Replace the iframe link with your final 1-5 minute demo video.",
-    "demo.desc.h2": "6.2 Demo video description",
+    "demo.desc.h2": "Demo video description",
     "demo.desc.p": "The video shows the key user journey: a client chooses a service, sees available slots, books a time, and receives confirmation. Then it demonstrates the business dashboard: schedule management, request handling, notifications, and workload analytics.",
    "demo.desc.l1": "00:00–00:15: Title slide and PAV concept.",
     "demo.desc.l2": "00:15–00:34: Problem #1 — Booking chaos and lost customers.",
@@ -324,8 +324,8 @@ const translations = {
     "demo.desc.l10": "02:57–04:04: Activity analysis: calls vs. online platform peaks.",
     "demo.desc.l11": "04:04–04:30: Channel synergy and operational risks.",
     "demo.desc.l12": "04:30–04:54: Final product value for the market.",
-    "demo.proto.h2": "6.3 Link to working prototype",
-    "demo.proto.p1": "Prototype link: <a href=\"https://example.com/prototype\" target=\"_blank\" rel=\"noreferrer\">https://example.com/prototype</a>",
+    "demo.proto.h2": "Link to working prototype",
+    "demo.proto.p1": "Prototype link: <a href=\"https://2-bpi.vercel.app/\" target=\"_blank\" rel=\"noreferrer\">https://2-bpi.vercel.app/</a>",
     "demo.footer.p": "Service Booking Platform · Demo Page",
     "demo.footer.back": "Back to main page",
     "chat.label.q": "Q",
@@ -431,5 +431,78 @@ languageButtons.forEach((button) => {
   });
 });
 
+function triggerSectionFocus(target) {
+  if (!target) {
+    return;
+  }
+
+  target.classList.remove("section-focus");
+  void target.offsetWidth;
+  target.classList.add("section-focus");
+  window.setTimeout(() => target.classList.remove("section-focus"), 980);
+}
+
+function setupAnchorAnimations() {
+  const links = document.querySelectorAll("a[href^='#']");
+  const navLinks = document.querySelectorAll(".main-nav a[href^='#']");
+  const sections = Array.from(document.querySelectorAll("main section[id]"));
+
+  const setActiveNav = (hash) => {
+    navLinks.forEach((link) => {
+      link.classList.toggle("is-active", link.getAttribute("href") === hash);
+    });
+  };
+
+  links.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      const hash = link.getAttribute("href");
+      if (!hash || hash === "#") {
+        return;
+      }
+
+      const target = document.querySelector(hash);
+      if (!target) {
+        return;
+      }
+
+      event.preventDefault();
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.history.replaceState(null, "", hash);
+      triggerSectionFocus(target);
+      setActiveNav(hash);
+    });
+  });
+
+  if (sections.length > 0 && navLinks.length > 0) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+
+        if (visible.length > 0) {
+          setActiveNav(`#${visible[0].target.id}`);
+        }
+      },
+      {
+        root: null,
+        rootMargin: "-35% 0px -45% 0px",
+        threshold: [0.25, 0.5, 0.75]
+      }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+  }
+
+  if (window.location.hash) {
+    const initialTarget = document.querySelector(window.location.hash);
+    if (initialTarget) {
+      window.setTimeout(() => triggerSectionFocus(initialTarget), 120);
+      setActiveNav(window.location.hash);
+    }
+  }
+}
+
 const initialLanguage = normalizeLanguage(window.localStorage.getItem("site-language") || document.documentElement.lang);
 applyLanguage(initialLanguage);
+setupAnchorAnimations();
