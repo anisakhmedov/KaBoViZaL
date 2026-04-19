@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title">Платформа бронирования услуг | Pitch Day</title>
+    <meta
+      name="description"
+      content="Платформа бронирования услуг: проблема, решение, команда, дорожная карта и план реализации."
+      data-i18n-content="meta.description"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-a"></div>
+    <div class="bg-shape bg-shape-b"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">ServiceBooking</a>
+      <nav class="main-nav">
+        <a href="#problem" data-i18n="nav.problem">Проблема → Решение</a>
+        <a href="#team" data-i18n="nav.team">Команда</a>
+        <a href="#why-us" data-i18n="nav.why">Почему мы</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#implementation" data-i18n="nav.implementation">Реализация</a>
+        <a class="demo-link" href="demo/">/demo</a>
+      </nav>
+      <div class="lang-switch" aria-label="Language switcher">
+        <button class="lang-btn" data-lang="ru" type="button">RU</button>
+        <button class="lang-btn" data-lang="uz" type="button">UZ</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Pitch Day · 1 этап</p>
+        <h1 data-i18n="hero.title">Платформа бронирования услуг</h1>
+        <p class="lead" data-i18n="hero.lead">
+          Единая цифровая экосистема для записи клиентов, управления расписанием и масштабирования локального
+          сервиса в онлайн.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="demo/" data-i18n="hero.demo">Смотреть демо</a>
+          <a class="btn btn-ghost" href="#implementation" data-i18n="hero.plan">План реализации</a>
+        </div>
+      </section>
+
+      <section id="problem" class="card reveal">
+        <h2 data-i18n="problem.h2">1. Проблема → Решение</h2>
+        <div class="grid two-cols">
+          <article>
+            <h3 data-i18n="problem.p1.h3">Проблема 1: хаос в записи и потеря клиентов</h3>
+            <p data-i18n="problem.p1.p">
+              До 40% потенциальных клиентов теряются на этапе попытки записи: занято, не ответили, забыли
+              перезвонить.
+            </p>
+            <p class="solution" data-i18n="problem.p1.s">Решение: 24/7 онлайн-запись в 2 клика + автоподтверждения и напоминания.</p>
+          </article>
+          <article>
+            <h3 data-i18n="problem.p2.h3">Проблема 2: высокий порог входа</h3>
+            <p data-i18n="problem.p2.p">
+              62% самозанятых и малых команд не используют цифровые инструменты из-за сложности запуска и настройки.
+            </p>
+            <p class="solution" data-i18n="problem.p2.s">Решение: готовая карточка бизнеса за 10 минут без сложной интеграции.</p>
+          </article>
+          <article>
+            <h3 data-i18n="problem.p3.h3">Проблема 3: нет единой экосистемы</h3>
+            <p data-i18n="problem.p3.p">
+              Разрозненные мессенджеры, таблицы и звонки не дают контроля над загрузкой, качеством сервиса и ростом.
+            </p>
+            <p class="solution" data-i18n="problem.p3.s">Решение: трехмодульная платформа: клиент, бизнес, модерация.</p>
+          </article>
+          <article>
+            <h3 data-i18n="problem.p4.h3">Ключевая ценность</h3>
+            <p data-i18n="problem.p4.p">
+              Платформа снижает потери заявок, ускоряет запуск малого сервиса и дает прозрачную аналитику для
+              управленческих решений.
+            </p>
+            <p class="solution" data-i18n="problem.p4.s">Результат: больше записей, меньше ручной рутины, предсказуемый рост.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="team" class="card reveal">
+        <h2 data-i18n="team.h2">2. Команда</h2>
+        <div class="grid four-cols">
+          <article class="member">
+            <h3>Project Manager</h3>
+            <p data-i18n="team.pm.p1">Управление продуктом, синхронизация команды, roadmap.</p>
+            <p data-i18n="team.pm.p2"><strong>Навыки:</strong> Jira, Notion, продуктовая аналитика.</p>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </article>
+          <article class="member">
+            <h3>Frontend Engineer</h3>
+            <p data-i18n="team.fe.p1">UX/UI, клиентская логика, SSR/SPA-оптимизация.</p>
+            <p data-i18n="team.fe.p2"><strong>Стек:</strong> Nuxt.js, Vue.js, TypeScript.</p>
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="member">
+            <h3>Backend Engineer</h3>
+            <p data-i18n="team.be.p1">API, бизнес-логика, безопасность и интеграции.</p>
+            <p data-i18n="team.be.p2"><strong>Стек:</strong> Node.js, Express.js, PostgreSQL.</p>
+            <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+          </article>
+          <article class="member">
+            <h3>Design / QA / DevOps</h3>
+            <p data-i18n="team.ops.p1">Дизайн-система, тестирование, CI/CD и мониторинг.</p>
+            <p data-i18n="team.ops.p2"><strong>Инструменты:</strong> Figma, Playwright, Docker, Cloud.</p>
+            <a href="https://www.behance.net" target="_blank" rel="noreferrer">Portfolio</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="why-us" class="card reveal">
+        <h2 data-i18n="why.h2">3. Почему наша команда решит эту проблему</h2>
+        <ul class="check-list">
+          <li data-i18n="why.l1">Релевантный опыт в биллинге, кабинетах клиентов и высоконагруженных системах.</li>
+          <li data-i18n="why.l2">Понимание домена: интервью с 15 владельцами малого сервисного бизнеса.</li>
+          <li data-i18n="why.l3">Технологическая готовность: проработанная архитектура и заготовки ключевых модулей.</li>
+          <li data-i18n="why.l4">Сильная связка продукт + инженерия + дизайн + операционная дисциплина.</li>
+        </ul>
+      </section>
+
+      <section id="roadmap" class="card reveal">
+        <h2 data-i18n="roadmap.h2">4. Дорожная карта</h2>
+        <div class="timeline">
+          <article>
+            <p class="phase">Idea</p>
+            <h3 data-i18n="roadmap.i.h3">Завершено</h3>
+            <p data-i18n="roadmap.i.p">Валидировали боль рынка, определили ценностное предложение, сформировали архитектурный контур.</p>
+          </article>
+          <article>
+            <p class="phase">Prototype · 2–3 недели</p>
+            <h3 data-i18n="roadmap.p.h3">Демо ядра сервиса</h3>
+            <p data-i18n="roadmap.p.p">Регистрация бизнеса, расписание, онлайн-запись клиента и базовые уведомления.</p>
+          </article>
+          <article>
+            <p class="phase">MVP · 6–8 недель</p>
+            <h3 data-i18n="roadmap.m.h3">Боевой минимальный продукт</h3>
+            <p data-i18n="roadmap.m.p">Платежи, роли и права, аналитика загрузки, модуль модерации и личные кабинеты.</p>
+          </article>
+          <article>
+            <p class="phase">Launched · 10–12 недель</p>
+            <h3 data-i18n="roadmap.l.h3">Публичный запуск</h3>
+            <p data-i18n="roadmap.l.p">Пилоты с реальными бизнесами, SLA/мониторинг, маркетинговый запуск и сбор метрик retention.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="implementation" class="card reveal">
+        <h2 data-i18n="impl.h2">5. Как мы реализуем решение</h2>
+        <div class="grid two-cols">
+          <article>
+            <h3 data-i18n="impl.stages.h3">Этапы разработки</h3>
+            <ol>
+              <li data-i18n="impl.stages.l1">Discovery: детализация user flow, приоритизация функционала.</li>
+              <li data-i18n="impl.stages.l2">Architecture: проектирование API, БД, очередей и модулей платформы.</li>
+              <li data-i18n="impl.stages.l3">Development: параллельная фронтенд- и бэкенд-разработка.</li>
+              <li data-i18n="impl.stages.l4">Testing: e2e, нагрузочные тесты, security checks.</li>
+              <li data-i18n="impl.stages.l5">Launch: деплой, мониторинг, итерации по обратной связи.</li>
+            </ol>
+          </article>
+          <article>
+            <h3 data-i18n="impl.tech.h3">Технологии</h3>
+            <ul>
+              <li data-i18n="impl.tech.l1">Frontend: Nuxt.js, Vue.js, TypeScript.</li>
+              <li data-i18n="impl.tech.l2">Backend: Node.js, Express.js, REST API.</li>
+              <li data-i18n="impl.tech.l3">Data: PostgreSQL, Redis.</li>
+              <li data-i18n="impl.tech.l4">Infrastructure: Docker, CI/CD, AWS или Yandex Cloud.</li>
+            </ul>
+          </article>
+          <article>
+            <h3 data-i18n="impl.ai.h3">AI-инструменты и решения</h3>
+            <ul>
+              <li data-i18n="impl.ai.l1">GitHub Copilot: ускорение разработки и рефакторинга.</li>
+              <li data-i18n="impl.ai.l2">ChatGPT API: генерация описаний услуг и подсказок для бизнеса.</li>
+              <li data-i18n="impl.ai.l3">AI-аналитика: прогноз пиковой нагрузки и рекомендации по слотам.</li>
+              <li data-i18n="impl.ai.l4">AI-ассистент: FAQ и поддержка операторов первой линии.</li>
+            </ul>
+          </article>
+          <article>
+            <h3 data-i18n="impl.extra.h3">Дополнительно</h3>
+            <p data-i18n="impl.extra.p">
+              На сайте добавлены optional-блоки: AI-чатбот с готовыми вопросами и секция API Access для интеграций.
+            </p>
+            <a class="btn btn-small" href="demo/" data-i18n="impl.extra.btn">Перейти к разделу /demo</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="extras" class="card reveal">
+        <h2 data-i18n="extras.h2">Optional: AI Chatbot + API Access</h2>
+        <div class="grid two-cols">
+          <article>
+            <h3 data-i18n="extras.chat.h3">AI-чатбот (FAQ-режим)</h3>
+            <div class="chat-box" id="chat-box">
+              <p data-i18n="chat.init.q"><strong>Q:</strong> Как быстро подключить бизнес?</p>
+              <p data-i18n="chat.init.a"><strong>A:</strong> Регистрация, настройка расписания и публикация карточки занимают около 10 минут.</p>
+            </div>
+            <div class="chat-controls">
+              <button class="btn btn-ghost" data-question-key="chat.q.price" data-i18n="chat.q.price" type="button">Сколько стоит старт?</button>
+              <button class="btn btn-ghost" data-question-key="chat.q.whatsapp" data-i18n="chat.q.whatsapp" type="button">Есть ли интеграция с WhatsApp?</button>
+            </div>
+          </article>
+          <article>
+            <h3>API Access</h3>
+            <p data-i18n="extras.api.p1">Планируем открыть API для партнеров и внешних продуктов.</p>
+            <pre><code>GET /api/v1/slots?serviceId=123&amp;date=2026-04-21
+POST /api/v1/bookings
+Authorization: Bearer &lt;token&gt;</code></pre>
+            <p data-i18n="extras.api.p2">Сценарии: виджеты записи, CRM-интеграции, аналитические дашборды.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footer.p">Pitch Day · Платформа бронирования услуг · 2026</p>
+      <a href="demo/" data-i18n="footer.demo">Открыть страницу /demo</a>
+    </footer>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>

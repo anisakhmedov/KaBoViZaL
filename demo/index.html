@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="demo.meta.title">Демо | Платформа бронирования услуг</title>
+    <meta name="description" content="Демо-видео и рабочий прототип платформы бронирования услуг." data-i18n-content="demo.meta.description" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-a"></div>
+    <div class="bg-shape bg-shape-b"></div>
+
+    <header class="site-header compact">
+      <a class="brand" href="../">ServiceBooking</a>
+      <nav class="main-nav">
+        <a href="../#problem" data-i18n="demo.nav.problem">Проблема</a>
+        <a href="../#roadmap">Roadmap</a>
+        <a href="../#implementation" data-i18n="demo.nav.implementation">Реализация</a>
+      </nav>
+      <div class="lang-switch" aria-label="Language switcher">
+        <button class="lang-btn" data-lang="ru" type="button">RU</button>
+        <button class="lang-btn" data-lang="uz" type="button">UZ</button>
+        <button class="lang-btn" data-lang="en" type="button">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero reveal">
+        <p class="eyebrow" data-i18n="demo.hero.eyebrow">Раздел /demo</p>
+        <h1 data-i18n="demo.hero.title">Демо решения</h1>
+        <p class="lead" data-i18n="demo.hero.lead">
+          Ниже размещены демонстрационное видео, его описание и ссылка на рабочий прототип.
+        </p>
+      </section>
+
+      <section class="card reveal">
+        <h2 data-i18n="demo.video.h2">6.1 Демо-видео (1–5 минут)</h2>
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Демо-видео платформы"
+            data-i18n-title="demo.video.iframeTitle"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="note" data-i18n="demo.video.note">
+          Замените ссылку в iframe на ваше финальное демо-видео длительностью 1–5 минут.
+        </p>
+      </section>
+
+      <section class="card reveal">
+        <h2 data-i18n="demo.desc.h2">6.2 Описание демо-видео</h2>
+        <p data-i18n="demo.desc.p">
+          В видео показан ключевой пользовательский сценарий: клиент выбирает услугу, видит свободные слоты,
+          бронирует время и получает подтверждение. Затем демонстрируется кабинет бизнеса: управление расписанием,
+          обработка заявок, уведомления и аналитика загрузки.
+        </p>
+        <ul>
+          <li data-i18n="demo.desc.l1">00:00–01:00: ценность решения и целевая аудитория.</li>
+          <li data-i18n="demo.desc.l2">01:00–02:30: клиентский путь бронирования.</li>
+          <li data-i18n="demo.desc.l3">02:30–03:30: кабинет бизнеса и управление услугами.</li>
+          <li data-i18n="demo.desc.l4">03:30–04:30: аналитика и AI-подсказки.</li>
+        </ul>
+      </section>
+
+      <section class="card reveal">
+        <h2 data-i18n="demo.proto.h2">6.3 Ссылка на рабочий прототип</h2>
+        <p data-i18n="demo.proto.p1">
+          Прототип доступен по ссылке:
+          <a href="https://example.com/prototype" target="_blank" rel="noreferrer">https://example.com/prototype</a>
+        </p>
+        <p class="note" data-i18n="demo.proto.note">Замените ссылку на ваш реальный прототип (Figma, staging или production URL).</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="demo.footer.p">Платформа бронирования услуг · Demo Page</p>
+      <a href="../" data-i18n="demo.footer.back">Вернуться на главную</a>
+    </footer>
+
+    <script src="../assets/main.js"></script>
+  </body>
+</html>
